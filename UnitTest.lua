@@ -5,9 +5,9 @@ asciiToutf = required asciiToUTF
  i = 1
  msgRes = ""
  while i <= # text do
-   msgRes, i = assciToutf.getutf8char(s,i)
-   msg = msgRes..msg
+   msg, i = assciToutf.getutf8char(text,i)
+   msgRes = msgRes..msg
  end
  print("Result Text:"..msgRes)
- print("Test Result:"..msgRes == text and "PASS" or "FAILED")
+ print("Test Result:"..(msgRes == text and "PASS" or "FAILED"))
  
