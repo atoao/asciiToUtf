@@ -1,5 +1,5 @@
 
-local pubic = {}
+local public = {}
 
 -- returns the char and the index of the next character in the stream s 
 -- also doubles as a UTF-8 character validator
